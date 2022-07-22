@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * print all the arguemnts that it recieves
- * all arguemnts are printed
- * only one paramater per line
- * must end with a new line
+ *  main -> this is a function to print its name
+ *  @argc: argc parameter
+ *   @argv: an array of a command listed
+ *   Return: 0 for success
  */
 
 int main(int argc, char *argv[])
