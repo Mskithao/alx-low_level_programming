@@ -3,19 +3,21 @@
 
 /**
  * main - program entry point
- * Return: Always return 0
+ *
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char c = ('a');
+	char k = 'a';
 
-	while (c <= 'z')
+	while (k <= 'z')
 	{
-		While (C <= 'Z')
-	}
-		putchar(c);
-		c++;
+		if (k != 'q' && k != 'e')
+		{
+			putchar(k);
+		}
+		k++;
 	}
 	putchar('\n');
 	return (0);
