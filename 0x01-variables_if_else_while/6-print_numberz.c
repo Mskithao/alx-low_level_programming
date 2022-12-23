@@ -14,6 +14,10 @@ int main(void)
 	while (k < 10)
 	{
 		putchar('0' + k);
+		/**
+		 * '0' + digit is a cheap way of converting
+		 * a single digital interger into its character representation
+		 */
 		k++;
 	}
 	putchar('\n');
