@@ -1,15 +1,14 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main -program entry point
- *
- * Return: Always 0
+ * main - program entry point
+ * Return: Always return 0
  */
 
 int main(void)
 {
-	char c = 'a';
+	char c = ('a');
 
 	while (c <= 'z')
 	{
